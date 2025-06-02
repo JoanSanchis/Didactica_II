@@ -1,0 +1,146 @@
+<?php
+
+
+use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\DB;
+
+class FacilitiesSeeder extends Seeder
+{
+    public function run()
+    {
+        DB::table('facilities')->insert([
+            [
+                'name' => 'Fútbol 11',
+                'description' => 'Campo de fútbol 11 con césped natural.',
+                'max_users' => 22,
+                'quantity' => 1,
+                'light' => true,
+                'price' => 95.00,
+                'price_member' => null,
+                'price_light' => 25.00,
+                'surface' => 'Césped natural',
+                'image' => 'assets/futbol11.jpg',
+            ],
+            [
+                'name' => 'Fútbol 7',
+                'description' => 'Campo de fútbol 7 con césped artificial.',
+                'max_users' => 14,
+                'quantity' => 1,
+                'light' => true,
+                'price' => 60.00,
+                'price_member' => null,
+                'price_light' => 15.00,
+                'surface' => 'Césped artificial',
+                'image' => 'assets/futbol7.jpg',
+            ],
+            [
+                'name' => 'Pabellón exterior',
+                'description' => 'Pabellón exterior multiusos.',
+                'max_users' => 50,
+                'quantity' => 1,
+                'light' => true,
+                'price' => 10.00,
+                'price_member' => null,
+                'price_light' => 5.00,
+                'surface' => 'Cemento',
+                'image' => 'assets/pabellonexterior.jpg',
+            ],
+            [
+                'name' => 'Pabellón interior',
+                'description' => 'Pabellón interior con parquet.',
+                'max_users' => 50,
+                'quantity' => 1,
+                'light' => true,
+                'price' => 30.00,
+                'price_member' => null,
+                'price_light' => 6.00,
+                'surface' => 'Parquet',
+                'image' => 'assets/pabelloninterior.jpg',
+            ],
+            [
+                'name' => 'Tenis pista dura',
+                'description' => 'Pista de tenis con superficie dura.',
+                'max_users' => 4,
+                'quantity' => 2,
+                'light' => true,
+                'price' => 5.50,
+                'price_member' => 4.00,
+                'price_light' => 2.50,
+                'surface' => 'Dura',
+                'image' => 'assets/tenisdura.jpg',
+            ],
+            [
+                'name' => 'Tenis tierra batida',
+                'description' => 'Pista de tenis con superficie de tierra batida.',
+                'max_users' => 4,
+                'quantity' => 2,
+                'light' => true,
+                'price' => 7.50,
+                'price_member' => 6.00,
+                'price_light' => 2.50,
+                'surface' => 'Tierra batida',
+                'image' => 'assets/tenistierra.jpg',
+            ],
+            [
+                'name' => 'Pádel',
+                'description' => 'Pista de pádel para un máximo de 4 jugadores.',
+                'max_users' => 4,
+                'quantity' => 2,
+                'light' => true,
+                'price' => 12.00,
+                'price_member' => 9.00,
+                'price_light' => 3.00,
+                'surface' => 'Cristal',
+                'image' => 'assets/padel.jpg',
+            ],
+            [
+                'name' => 'Pista de atletismo',
+                'description' => 'Pista de atletismo al aire libre.',
+                'max_users' => 20,
+                'quantity' => 1,
+                'light' => false,
+                'price' => 1.50,
+                'price_member' => 1.00,
+                'price_light' => 0.00, // Valor predeterminado
+                'surface' => 'Tartán',
+                'image' => 'assets/atletismo.jpg',
+            ],
+            [
+                'name' => 'Petanca',
+                'description' => 'Zona de petanca al aire libre.',
+                'max_users' => 10,
+                'quantity' => 1,
+                'light' => false,
+                'price' => 1.50,
+                'price_member' => 1.00,
+                'price_light' => 0.00, // Valor predeterminado
+                'surface' => 'Arena',
+                'image' => 'assets/petanca.jpg',
+            ],
+            [
+                'name' => 'Sauna',
+                'description' => 'Sauna para relajación.',
+                'max_users' => 5,
+                'quantity' => 1,
+                'light' => false,
+                'price' => 5.00,
+                'price_member' => 4.00,
+                'price_light' => 0.00, // Valor predeterminado
+                'surface' => 'Madera',
+                'image' => 'assets/sauna.jpg',
+            ],
+            [
+                'name' => 'Sala multiusos',
+                'description' => 'Sala multiusos para actividades diversas.',
+                'max_users' => 20,
+                'quantity' => 1,
+                'light' => true,
+                'price' => 18.00,
+                'price_member' => null,
+                'price_light' => 6.00,
+                'surface' => 'Parquet',
+                'image' => 'assets/salamultiusos.jpg',
+            ],
+        ]);
+    }
+}
