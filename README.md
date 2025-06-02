@@ -42,11 +42,11 @@ Aquesta arquitectura desacoblada permet que client i servidor executin les seves
 El repositori està organitzat per facilitar la gestió del projecte educatiu:
 
 *   `README.md`: Aquest fitxer, amb una introducció breu, els objectius i l'explicació de l'estructura del repositori.
-*   `professor/`: Conté la documentació adreçada al professorat (programació, materials, temporalització, avaluació).
-*   `alumne/`: Inclou el dossier del projecte per a l'alumnat, recursos, guies i activitats.
-*   `alumne/DockerHub/api/`: Conté el codi font del backend (API Laravel).
-*   `alumne/DockerHub/frontend/`: Conté el codi font del frontend (aplicació Angular).
-*   `alumne/DockerHub/docker-compose.yml`: Fitxer de configuració per orquestrar els contenidors Docker.
+*   `[professor/](https://github.com/JoanSanchis/Didactica_II/tree/develop/professor "professor/")`: Conté la documentació adreçada al professorat (programació, materials, temporalització, avaluació).
+*   `[alumne/](https://github.com/JoanSanchis/Didactica_II/tree/develop/alumne "alumne/")`: Inclou el dossier del projecte per a l'alumnat, recursos, guies i activitats.
+*   `[alumne/DockerHub/api/](https://github.com/JoanSanchis/Didactica_II/tree/develop/alumne/DockerHub/api "alumne/DockerHub/api/")`: Conté el codi font del backend (API Laravel).
+*   `[alumne/DockerHub/frontend/](https://github.com/JoanSanchis/Didactica_II/tree/develop/alumne/DockerHub/frontend "alumne/DockerHub/frontend/")`: Conté el codi font del frontend (aplicació Angular).
+*   `[alumne/DockerHub/docker-compose.yml](https://github.com/JoanSanchis/Didactica_II/blob/develop/alumne/DockerHub/docker-compose.yml "alumne/DockerHub/docker-compose.yml")`: Fitxer de configuració per orquestrar els contenidors Docker.
 *   Altres fitxers de configuració i recursos del projecte.
 
 ## Instal·lació i Execució
