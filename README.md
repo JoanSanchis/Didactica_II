@@ -42,11 +42,11 @@ Aquesta arquitectura desacoblada permet que client i servidor executin les seves
 El repositori està organitzat per facilitar la gestió del projecte educatiu:
 
 *   `README.md`: Aquest fitxer, amb una introducció breu, els objectius i l'explicació de l'estructura del repositori.
-*   `professorat/`: Conté la documentació adreçada al professorat (programació, materials, temporalització, avaluació).
-*   `alumnat/`: Inclou el dossier del projecte per a l'alumnat, recursos, guies i activitats.
-*   `api/`: Conté el codi font del backend (API Laravel).
-*   `frontend/`: Conté el codi font del frontend (aplicació Angular).
-*   `docker-compose.yml`: Fitxer de configuració per orquestrar els contenidors Docker.
+*   `professor/`: Conté la documentació adreçada al professorat (programació, materials, temporalització, avaluació).
+*   `alumne/`: Inclou el dossier del projecte per a l'alumnat, recursos, guies i activitats.
+*   `alumne/DockerHub/api/`: Conté el codi font del backend (API Laravel).
+*   `alumne/DockerHub/frontend/`: Conté el codi font del frontend (aplicació Angular).
+*   `alumne/DockerHub/docker-compose.yml`: Fitxer de configuració per orquestrar els contenidors Docker.
 *   Altres fitxers de configuració i recursos del projecte.
 
 ## Instal·lació i Execució
@@ -55,7 +55,7 @@ Per posar en marxa l'aplicació en un entorn de desenvolupament local, cal tenir
 
 1.  **Clonar el repositori:**
     ```bash
-    git clone https://github.com/frafusju/polideportivo.git
+    git clone https://github.com/JoanSanchis/Didactica_II.git
     cd polideportivo # O el nom del directori clonat
     ```
 2.  **Construir i aixecar els serveis (Backend, BD):** Utilitzant `docker-compose`.
