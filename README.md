@@ -171,7 +171,6 @@ Aquí teniu algunes comandes addicionals que poden ser útils durant el desenvol
 
 ## Ferramentes de Disseny i Desenvolupament
 
-*   Diagrams.net
 *   Figma
 *   Gimp (per edició d'imatges)
 *   Visual Studio Code (IDE)
